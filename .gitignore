@@ -39,4 +39,5 @@ Thumbs.db
 
 # Cloudflare Workers
 .wrangler/
+.cloudflare/
 dist/
