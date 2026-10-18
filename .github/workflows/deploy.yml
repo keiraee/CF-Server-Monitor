@@ -65,6 +65,10 @@ jobs:
           directory = "./dist"
           binding = "ASSETS"
 
+          [[routes]]
+          pattern = "keiraeecloud.top"
+          custom_domain = true
+
           [[d1_databases]]
           binding = "DB"
           database_name = "server-monitor-db"
